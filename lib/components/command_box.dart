@@ -3,7 +3,6 @@ import '../components/button.dart';
 
 class MyCommand extends StatelessWidget {
   final Map<String, Object> infos;
-
   const MyCommand(this.infos, {super.key});
 
   @override
@@ -38,7 +37,6 @@ class MyCommand extends StatelessWidget {
 
 class RightSide extends StatelessWidget {
   final Map<String, Object> infos;
-
   const RightSide(this.infos, {super.key});
 
   @override
@@ -63,8 +61,7 @@ Nombre: ${infos['number']}''';
           )
         ),
         const SizedBox(height: 5),
-        Text(
-          description,
+        Text(description,
           style: const TextStyle(
             fontSize: 9,
             color: Color(0xFF333333),
@@ -72,16 +69,15 @@ Nombre: ${infos['number']}''';
           ),
         ),
         const SizedBox(height: 5),
-
         Row(children: [
           const Spacer(),
           MyButton("Servi",
-            size: const Size(40, 20),
+            fontSize: 9,
+            size: const Size(20, 20),
             onPress: () {}
           ),
-        ])
+        ]),
       ]
     );
   }
-
 }

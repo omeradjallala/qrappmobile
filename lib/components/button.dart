@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class MyButton extends StatelessWidget {
   final String value;
   final Color bgColor;
+  final double fontSize;
   final Size size;
   final Size maxSize;
   final VoidCallback onPress;
@@ -12,6 +13,7 @@ class MyButton extends StatelessWidget {
     super.key,
     required this.onPress,
     this.bgColor = Colors.transparent,
+    this.fontSize = 12,
     this.size = const Size(10, 50),
     this.maxSize = const Size(500, 500),
   });
@@ -31,8 +33,8 @@ class MyButton extends StatelessWidget {
         // fixedSize: MaterialStateProperty.all<Size>(size),
       ),
       child: Text(value,
-        style: const TextStyle(
-          fontSize: 12,
+        style: TextStyle(
+          fontSize: fontSize,
           color: Colors.white,
         )),
     );
