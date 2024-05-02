@@ -67,6 +67,7 @@ flutter:
   assets:
     - assets/
     - assets/logo.png
+    - assets/person_icon.png
     - assets/login_icon.png
     - assets/foods/chawarma.png
     - assets/foods/Mayura.png
