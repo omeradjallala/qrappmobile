@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347373700593",
+    "project_id": "qrapp-be477",
+    "storage_bucket": "qrapp-be477.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347373700593:android:f4a1d11a92ae6173723050",
+        "android_client_info": {
+          "package_name": "com.fractalin.qrappmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVJSKDsPypxNL-55GipsoqKhpRuHYzJNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
